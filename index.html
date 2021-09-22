@@ -32,12 +32,12 @@
             <h3>Get Started Today</h3>
             <p>Fill out this form and one of our trainers wills schedule a consult</p>
             <form>
-                <label for="name">Enter full name</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" />
-                <label for="email">Email Address</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
-                <label for="phone">Phone Number</label>
-                <input for="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name"/>
+                <label for="email">Enter email Address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email"/>
+                <label for="phone">Enter a telephone number:</label>
+                <input for="tel" placeholder="Phone Number" name="phone" id="phone"/>
                 <p>
                     Have you worked with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -46,7 +46,9 @@
                     <label for="trainer-no">No</label>
                 </p>
                 <p>
+                    <label for="checkbox">
                     I acknowledge that I am at least 18 years of age
+                    </label>
                     <input type="checkbox" name="age-restrict" id="checkbox" />
                 </p>
                 <button type="submit">
@@ -89,8 +91,42 @@
         </div>
     </section>
 
-    <section id="meet-the-trainers">
-        <h2>Meet the Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet the Trainers</h2>
+        <article class="trainer">
+            <img src="./assets/images/trainer-1.jpg" alt="Aaron Stephens in his workout clothes, ready to pump iron">
+            <div class="trainer-bio text-left">
+                <h3>Aaron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+            </div>
+        </article>
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+            </div>
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout."/>
+        </article>
+        <article class="trainer">
+            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband."/>
+            <div class="trainer-bio text-left">
+                <h3>Harry Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+            </div>
+            
+        </article>
     </section>
 
     <section id="reach-out">
