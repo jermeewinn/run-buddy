@@ -12,3 +12,5 @@ https://jermeewinn.github.io/run-buddy/
 
 ## Contribution
 Made by Jeremy Huynh
+
+### (c)2019 Run Buddy, Inc.
