@@ -29,9 +29,9 @@ header a {
   color: #fce138;
 }
   
-  header nav {
-    margin: 7px 0;
-  }
+header nav {
+  margin: 7px 0;
+}
   
 header nav ul {
   display: flex;
