@@ -150,6 +150,34 @@ section {
     text-align: center;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.secondary-title {
+    font-size: 55px;
+    color: #fce138;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid; 
+    text-align: center;
+}
+
 .steps {
     background: #fce138;
 }
@@ -166,50 +194,10 @@ section {
     
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.secondary-title {
-    font-size: 55px;
-    color: #fce138;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid; 
-    text-align: center;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 .step h3 {
     color:  #024e76;
     font-size: 46px;
     flex: 1 30%;
-}
-
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
-.step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
-    flex: 12;
 }
 
 .step-info {
@@ -226,6 +214,22 @@ section {
 
 .step-img img {
     max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+    flex: 12;
 }
 
 .trainers {
@@ -245,22 +249,11 @@ section {
 
 .trainer img {
     width: 35%;
-    float: left;
 }
 
 .trainer-bio {
     padding: 35px;
-    float: left;
-    width: 65%;
     line-height: 1.3;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
 }
 
 .trainer-bio h3 {
@@ -278,24 +271,10 @@ section {
 }
 
 .contact {
-    color: #39a6b2;
     background: #024e76;
 }
 .contact h2 {
     color: #fce138;
-}
-
-.contact-info iframe {
-    height: 400px;
-}
-
-.contact div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
 }
 
 .contact-info {
@@ -307,6 +286,14 @@ section {
 .contact-info > * {
     flex: 1;
     margin: 15px;
+}
+
+.contact-info iframe {
+    height: 400px;
+}
+
+.contact-info div {
+    color: white;
 }
 
 .contact-info h3 {
@@ -340,12 +327,16 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
-.contact-info div {
-    color: white;
+.contact-info a {
+    color:  #fce138;
 }
 
-.contact-info a {
-    color: #fce138;
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .flex-row {
