@@ -42,7 +42,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -82,6 +82,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-cta {
@@ -90,7 +91,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -139,8 +140,6 @@ section {
     font-size: 16px;
 }
 
-
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -151,7 +150,7 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px; 
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -341,4 +340,19 @@ section {
 
 .flex-row {
     display: flex;
+}
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 900px) {
+ 
+}
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+ 
 }
